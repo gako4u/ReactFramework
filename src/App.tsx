@@ -2,7 +2,23 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App(): React.ReactElement {
+  return (
+    <>
+      <div style={{ height: "100vh" }}>
+        <div style={{ height: "20vmin" }}>
+          <div style={{ display: "flex", justifyContent: "center", alignItems: "center", overflow: "hidden", height: "20vmin", backgroundColor: "#282c34" }}>
+            <div style={{ transform: "scale(0.20)" }}>
+              <Logo />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+function Logo(): React.ReactElement {
   return (
     <div className="App">
       <header className="App-header">
