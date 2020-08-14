@@ -157,6 +157,14 @@
   "babel": {
     "presets": [
       "react-app"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-transform-typescript",
+        {
+          "allowNamespaces": true
+        }
+      ]
     ]
   },
   "devDependencies": {
