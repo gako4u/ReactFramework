@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Main from './samples/Main';
 
 function App(): React.ReactElement {
   return (
@@ -12,6 +13,10 @@ function App(): React.ReactElement {
               <Logo />
             </div>
           </div>
+        </div>
+
+        <div style={{ height: "80vmin", overflow: "hidden" }}>
+          <Main.Component />
         </div>
       </div>
     </>
