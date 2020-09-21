@@ -1,0 +1,5 @@
+{
+  "html.format.endWithNewline": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true
+}
