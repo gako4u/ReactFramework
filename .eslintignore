@@ -1,0 +1,11 @@
+# ディレクトリ
+config/
+node_modules*/
+public/
+scripts/
+
+# ファイル
+**/*.js
+src/serviceWorker.ts
+src/react-app-env.d.ts
+src/reportWebVitals.ts
