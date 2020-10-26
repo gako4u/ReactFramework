@@ -19,6 +19,7 @@ namespace Main {
     ReduxSagaAction: new SubComponent("ReduxSagaAction", () => import('./reduxSagaAction/Index')),
     ReduxFramework: new SubComponent("ReduxFramework", () => import('./reduxFramework/Index')),
     HooksSample: new SubComponent("HooksSample", () => import('./hooksSample/Index')),
+    HooksFramework: new SubComponent("HooksFramework", () => import('./hooksFramework/screens/Index')),
   };
 
   export function Component(): React.ReactElement {
