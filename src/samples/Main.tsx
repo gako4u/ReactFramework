@@ -17,6 +17,7 @@ namespace Main {
     ReduxSample: new SubComponent("ReduxSample", () => import('./reduxSample/Index')),
     ReduxAction: new SubComponent("ReduxAction", () => import('./reduxAction/Index')),
     ReduxSagaAction: new SubComponent("ReduxSagaAction", () => import('./reduxSagaAction/Index')),
+    ReduxFramework: new SubComponent("ReduxFramework", () => import('./reduxFramework/Index')),
   };
 
   export function Component(): React.ReactElement {
