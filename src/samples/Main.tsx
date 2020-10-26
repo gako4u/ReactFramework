@@ -14,6 +14,7 @@ namespace Main {
 
   export const subComponents: Record<string, SubComponent> = {
     Immutable: new SubComponent("Immutable", () => import('./immutable/Index')),
+    ReduxSample: new SubComponent("ReduxSample", () => import('./reduxSample/Index')),
   };
 
   export function Component(): React.ReactElement {
